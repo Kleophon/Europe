@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/Europe.App/Europe.App.csproj" Id="40d75b3d-d0f0-465c-ad3b-4590ce62cdc0" />
+  <Project Path="src/Europe.AppHost/Europe.AppHost.csproj" Id="a1d1a0e3-deed-465c-acf3-382cb978f9bb" />
+  <Project Path="src/Europe.Domain/Europe.Domain.csproj" Id="492e5199-00b4-4e90-9b42-56c08bdba0ba" />
+  <Project Path="src/Europe.Inf/Europe.Inf.csproj" Id="94163929-54af-4353-8f24-35361ca18443" />
+  <Project Path="src/Europe.Server/Europe.Server.csproj" />
+  <Project Path="src/Europe.ServiceDefaults/Europe.ServiceDefaults.csproj" />
+</Solution>

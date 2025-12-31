@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Europe.App\Europe.App.csproj" />
+    <ProjectReference Include="..\Europe.Server\Europe.Server.csproj" />
+  </ItemGroup>
+
+</Project>
