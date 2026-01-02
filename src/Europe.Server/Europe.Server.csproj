@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="Endpoints\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
