@@ -1,6 +1,6 @@
 
+using Europe.Inf;
 using Scalar.AspNetCore;
-
 namespace Europe.Server
 {
     public class Program
@@ -12,9 +12,13 @@ namespace Europe.Server
             
             builder.AddServiceDefaults();
 
-
+            
             builder.Services.AddControllers();
+            builder.Services.AddInfrastructure(builder.Configuration, builder.Environment.EnvironmentName);
             builder.Services.AddOpenApi();
+          
+           
+           
 
             var app = builder.Build();
 
@@ -34,6 +38,7 @@ namespace Europe.Server
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+            
 
 
 

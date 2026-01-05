@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Europe.App\Europe.App.csproj" />
+    <ProjectReference Include="..\Europe.Inf\Europe.Inf.csproj" />
     <ProjectReference Include="..\Europe.ServiceDefaults\Europe.ServiceDefaults.csproj" />
   </ItemGroup>
 
